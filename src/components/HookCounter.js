@@ -8,7 +8,7 @@ function HookCounter() {
       HookCounter
       <button
         onClick={() => {
-          setCount(count + 1);
+          setCount(count + 1); //We should use the functional form of the setCount; check HookCounterTwo file.
         }}
       >
         Count {count} times
