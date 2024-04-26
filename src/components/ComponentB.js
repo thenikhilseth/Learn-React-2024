@@ -4,6 +4,7 @@ import UseContextComponentC from "./UseContextComponentC";
 function ComponentB() {
   return (
     <div>
+      Component B
       <UseContextComponentC />
     </div>
   );
