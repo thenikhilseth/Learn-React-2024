@@ -17,6 +17,8 @@ import UseReducerCounterThree from "./components/UseReducerCounterThree";
 import AComponent from "./components/UseReducerAndUseContextExample/AComponent";
 import BComponent from "./components/UseReducerAndUseContextExample/BComponent";
 import CComponent from "./components/UseReducerAndUseContextExample/CComponent";
+import UseReducerFetchData from "./components/UseReducerFetchData";
+import ParentComponent from "./components/UseCallback Example/ParentComponent";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -59,13 +61,15 @@ function App() {
       {/* <UseReducerCounter /> */}
       {/* <UseReducerCounterTwo /> */}
       {/* <UseReducerCounterThree /> */}
-      <counterContext.Provider
+      {/* <counterContext.Provider
         value={{ counterState: counter, countDispatch: dispatcher }}
       >
         <AComponent />
         <BComponent />
         <CComponent />
-      </counterContext.Provider>
+      </counterContext.Provider> */}
+      {/* <UseReducerFetchData /> */}
+      <ParentComponent />
     </div>
   );
 }
