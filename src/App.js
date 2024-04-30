@@ -19,6 +19,9 @@ import BComponent from "./components/UseReducerAndUseContextExample/BComponent";
 import CComponent from "./components/UseReducerAndUseContextExample/CComponent";
 import UseReducerFetchData from "./components/UseReducerFetchData";
 import ParentComponent from "./components/UseCallback Example/ParentComponent";
+import UseMemoCounter from "./components/useMemoCounter";
+import UseRefPart1 from "./components/UseRef Example/UseRefPart1";
+import UseRefPart2 from "./components/UseRef Example/UseRefPart2";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -69,7 +72,10 @@ function App() {
         <CComponent />
       </counterContext.Provider> */}
       {/* <UseReducerFetchData /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      {/* <UseMemoCounter /> */}
+      {/* <UseRefPart1 /> */}
+      <UseRefPart2 />
     </div>
   );
 }
