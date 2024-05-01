@@ -22,6 +22,8 @@ import ParentComponent from "./components/UseCallback Example/ParentComponent";
 import UseMemoCounter from "./components/useMemoCounter";
 import UseRefPart1 from "./components/UseRef Example/UseRefPart1";
 import UseRefPart2 from "./components/UseRef Example/UseRefPart2";
+import CounterOne from "./components/Custom Hooks/Components/CounterOne";
+import CounterTwo from "./components/Custom Hooks/Components/CounterTwo";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -75,7 +77,9 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <UseMemoCounter /> */}
       {/* <UseRefPart1 /> */}
-      <UseRefPart2 />
+      {/* <UseRefPart2 /> */}
+      <CounterOne />
+      <CounterTwo />
     </div>
   );
 }
